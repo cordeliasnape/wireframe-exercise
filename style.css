@@ -42,7 +42,6 @@ span img {
 }
 
 main {
-  background-color: aliceblue;
   padding: 10px 50px;
   display: flex;
   flex-direction: column;
