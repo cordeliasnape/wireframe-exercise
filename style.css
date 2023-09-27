@@ -3,33 +3,55 @@ body {
 }
 
 header {
-  background-color: white;
+  background-color: grey;
   display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 nav {
-  background-color: beige;
   display: flex;
+  align-self: flex-end;
+  border: solid 2px white;
 }
 
-a {
-  justify-content: space-between;
+nav a {
+  margin: 0 10px;
+  color: black;
+  padding: 30px;
+}
+
+span img {
+  padding: 20px 0px;
 }
 
 main {
   background-color: aliceblue;
+  padding: 10px 50px;
+  display: flex;
+  flex-direction: column;
+  width: 960px;
+  margin: 0 auto;
 }
 
 section {
   width: 100%;
+  display: flex;
+  border: solid 2px blue;
 }
 
 span {
   justify-content: space-between;
+  border: solid 2px red;
+  align-items: center;
 }
 
 div {
   width: 50%;
+  border: solid 2px black;
+  align-items: flex-end;
+  flex-direction: column;
 }
 
 h2 {
