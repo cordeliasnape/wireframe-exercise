@@ -1,0 +1,56 @@
+body {
+  background-color: whitesmoke;
+}
+
+header {
+  background-color: white;
+  display: flex;
+}
+
+nav {
+  background-color: beige;
+  display: flex;
+}
+
+a {
+  justify-content: space-between;
+}
+
+main {
+  background-color: aliceblue;
+}
+
+section {
+  width: 100%;
+}
+
+span {
+  justify-content: space-between;
+}
+
+div {
+  width: 50%;
+}
+
+h2 {
+  font-size: larger;
+}
+
+p {
+  padding: 20px 0px;
+}
+
+button {
+  background-color: black;
+  color: white;
+}
+
+/* button:hover{
+  color: 300ms;
+}  */
+
+footer {
+  background-color: grey;
+  width: 100%;
+  height: 100px;
+}
